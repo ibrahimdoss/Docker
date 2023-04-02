@@ -1,6 +1,6 @@
 Docker, açık kaynak bir Container motorudur. Daha iyi anlamak için mimarisini ve bileşenlerini inceleyelim:
 
-![Names](DockerCommands/CommandImages/docker-infra.png)
+![Names](https://github.com/ibrahimdoss/Docker/blob/main/Images/docker-infra.png)
 
 - Docker Client, docker komutlarını çalıştırdığınız komut satırı arayüzü aracıdır. Gelen talepleri Docker API üzerinden Docker Daemon' a iletir.
 
