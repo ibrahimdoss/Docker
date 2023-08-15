@@ -1,2 +1,0 @@
-Container yaşam süresinden daha uzun süre tutmamız gereken veriler varsa bunları container içinde tutmamamız gerekir. Bu verileri alıp harici bir veritabanına göndermemiz ve her bir container ile paylaşmamız gerekir. Container dışı veri saklamayı Docker Volume ile gerçekleştirebiliriz. Docker volume, aynı container ve image gibi bir Docker objesi ve tıpkı onların yaratıldığı şekilde yaratılıyorlar, yani Docker daemon'ın kurulu olduğu makine üstünde yaratılıyorlar. Fakat istersek çeşitli volume driver'larını kullanıp volume objelerimizi lokalde veya bulutta yaratabiliriz.
-
