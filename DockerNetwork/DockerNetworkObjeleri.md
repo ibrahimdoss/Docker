@@ -1,4 +1,4 @@
-![image](https://github.com/ibrahimdoss/Docker/blob/main/DockerNetwork/NetworkImages/net1.png)
+![image](https://github.com/ibrahimdoss/Docker/blob/DockerNetwork/NetworkImages/net1.png)
 
 Docker kurulumuyla birlikte 3 adet network objesi geliyor.(bridge,host,none).
 
