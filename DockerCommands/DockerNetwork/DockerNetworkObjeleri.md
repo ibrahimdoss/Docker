@@ -1,4 +1,4 @@
-![image](https://github.com/ibrahimdoss/Docker/blob/main/Images/NetworkImages/net1.png)
+![image](https://github.com/ibrahimdoss/Docker/blob/640dd7d2c364ff0c988867fa39fc54ee85efe19f/Images/NetworkImages/net1.jpg)
 
 Docker kurulumuyla birlikte 3 adet network objesi geliyor.(bridge,host,none).
 
@@ -10,13 +10,13 @@ Host driver ile olusturulmus host network ise buna bağlayacağımız containerl
 
 None ise bağlayacağımız containerların hicbir sekilde auth yapısını kullanmaması sağlar.
 
-![image](https://github.com/ibrahimdoss/Docker/blob/main/DockerNetwork/NetworkImages/a2.png)
+![image](https://github.com/ibrahimdoss/Docker/blob/640dd7d2c364ff0c988867fa39fc54ee85efe19f/Images/NetworkImages/a2.png)
 
 yukarıda network objesinin tüm özelliklerini listeledik.
 
 Inspecti diğer objelerde de kullanabiliriz. Objelerin detaylı özelliklerini inspect ile öğrenebiliriz.
 
-![image](https://github.com/ibrahimdoss/Docker/blob/main/DockerNetwork/NetworkImages/a3.png)
+![image](https://github.com/ibrahimdoss/Docker/blob/640dd7d2c364ff0c988867fa39fc54ee85efe19f/Images/NetworkImages/a3.png)
 
 Birden fazla ağdan tek birleşik ağ yaratmaya yarıyor.(bridge)
 
@@ -28,7 +28,7 @@ Containerın paketleri teslim edeceği yer olarak da docker0 interfacenin adresi
 
 Containerı kapatıp ama bağlantıyı kapatmamak icin ctrl+PveQ yapmak yeterli.
 
-![image](https://github.com/ibrahimdoss/Docker/blob/main/DockerNetwork/NetworkImages/a4.png)
+![image](https://github.com/ibrahimdoss/Docker/blob/640dd7d2c364ff0c988867fa39fc54ee85efe19f/Images/NetworkImages/a4.png)
 
 Ifconfig ile ip adresine vs bakabiliriz.
 
@@ -38,7 +38,7 @@ Buna bağlı containerler hicbir network izolasyonu yoktur, calıstıkları sist
 
 **None**
 
-![image](https://github.com/ibrahimdoss/Docker/blob/main/DockerNetwork/NetworkImages/a5.png)
+![image](https://github.com/ibrahimdoss/Docker/blob/640dd7d2c364ff0c988867fa39fc54ee85efe19f/Images/NetworkImages/a5.png)
 
 Sadece loopback adaptor var, baska bir ethernet veya network bağlantısı yok. Herhangi bir yere bağlanamıyor, erisemiyor.
 

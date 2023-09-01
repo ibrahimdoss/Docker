@@ -2,7 +2,7 @@ Default olarak gelen 3 network objesi dısında docker altında bu defaultları 
 
 Eğer istersek yeni bridge networkler yaratabiliyoruz.
 
-![image](https://github.com/ibrahimdoss/Docker/blob/main/DockerNetwork/NetworkImages/n8.png)
+![image](https://github.com/ibrahimdoss/Docker/blob/640dd7d2c364ff0c988867fa39fc54ee85efe19f/Images/NetworkImages/n8.png)
 
 Neden yeni bridge network olusturmaya ihtiyac duyuyoruz ?
 
@@ -12,11 +12,11 @@ Neden yeni bridge network olusturmaya ihtiyac duyuyoruz ?
 
 Aynı networke bağlı containerlar birbirlerine port publish etmeden haberlesebiliyorlar.
 
-![image](https://github.com/ibrahimdoss/Docker/blob/main/DockerNetwork/NetworkImages/n9.png)
+![image](https://github.com/ibrahimdoss/Docker/blob/640dd7d2c364ff0c988867fa39fc54ee85efe19f/Images/NetworkImages/n9.png)
 
 Eğer bunu istemiyorsak ayrı ayrı containerları farklı bridge networklere bağlayarak network izolasyonu sağlayabiliriz.
 
-![image](https://github.com/ibrahimdoss/Docker/blob/main/DockerNetwork/NetworkImages/n10.png)
+![image](https://github.com/ibrahimdoss/Docker/blob/640dd7d2c364ff0c988867fa39fc54ee85efe19f/Images/NetworkImages/n10.png)
 
 Yukarıdaki gibi db ve web containerlarına isim üzerinden erisim sağlayamayız. Ama biz bi tane bridge network olusturup bu iki containerı da buna bağlarsak bunlara bridge networkteki isim üzerinden bunlara erisebiliriz.
 
